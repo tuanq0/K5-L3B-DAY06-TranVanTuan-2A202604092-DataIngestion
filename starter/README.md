@@ -52,14 +52,14 @@ docker compose -p day6_student_starter stop
 
 ## 2. Chọn embedding model
 
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+Starter hiện dùng model local `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (384 chiều) qua `sentence-transformers`. Model được tải về lần đầu; sau đó embedding chạy trên CPU và không gửi nội dung tới API embedding. Có thể đổi model bằng `SENTENCE_TRANSFORMER_MODEL` trong `.env`. Dùng cùng model và số chiều cho toàn bộ chiến lược.
 
 ## 3. Hoàn thiện pipeline
 
 1. Đặt corpus vào `data/` hoặc cung cấp manifest/hướng dẫn truy cập. Đọc [GUIDE.md](../GUIDE.md) về **30 trang nội dung**, quyền dữ liệu và metadata.
 2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
-3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
+3. Pipeline chạy năm cấu hình: A fixed-size, B theo đoạn, C như B nhưng có filter, D theo câu và E theo heading. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
 4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
+5. Sau khi hoàn thiện các module, chạy `python -m src.run` từ thư mục `starter/`. Có thể truyền `--pdf`, `--questions`, `--document-id` và `--output-dir`; kết quả top-3 và tổng hợp được ghi vào `results/traces.json` và `results/summary.json`.
 
 Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.

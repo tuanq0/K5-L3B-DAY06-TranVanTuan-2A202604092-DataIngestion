@@ -1,4 +1,6 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Core setup, PDF parsing and local sentence-transformer embeddings.
 psycopg[binary]==3.3.8
+docling>=2,<3
+sentence-transformers>=3,<6
 pypdf>=5,<7
 python-dotenv>=1,<2
