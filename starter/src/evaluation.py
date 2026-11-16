@@ -10,7 +10,9 @@ def _normalize(text: str) -> str:
 
 
 def _gold_evidence(question: dict[str, Any]) -> list[dict[str, Any]]:
-    alternatives = question.get("gold_evidence")
+    alternatives = question.get("gold")
+    if alternatives is None:
+        alternatives = question.get("gold_evidence")
     if alternatives is None:
         alternatives = [
             {
@@ -35,10 +37,12 @@ def _gold_evidence(question: dict[str, Any]) -> list[dict[str, Any]]:
             or item.get("source")
         )
         page = item.get("page", item.get("gold_page"))
-        quote = item.get("quote", item.get("evidence_quote"))
+        quote = item.get(
+            "evidence", item.get("quote", item.get("evidence_quote"))
+        )
         if not source_id or page is None or not isinstance(quote, str) or not quote.strip():
             raise ValueError(
-                f"gold_evidence[{index}] requires source_id, page, and a non-empty quote"
+                f"gold[{index}] requires source_id, page, and a non-empty evidence string"
             )
         normalized.append(
             {"source_id": str(source_id), "page": page, "quote": _normalize(quote)}
@@ -80,8 +84,8 @@ def evaluate_query(
 ) -> dict[str, Any]:
     """Check source, page, and quoted evidence; retain the full retrieval trace.
 
-    ``gold_evidence`` may contain multiple acceptable ``source_id``/``page``/
-    ``quote`` objects. If omitted, the standard singular gold fields are used.
+    ``gold`` may contain multiple acceptable ``source_id``/``page``/``evidence``
+    objects. Legacy ``gold_evidence`` and singular gold fields are also accepted.
     """
     if not isinstance(question, dict):
         raise ValueError("question must be an object")

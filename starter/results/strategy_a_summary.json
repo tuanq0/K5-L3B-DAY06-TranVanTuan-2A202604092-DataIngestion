@@ -1,0 +1,46 @@
+{
+  "run": {
+    "benchmark": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\questions.json",
+    "strategy": "A",
+    "model": "C:\\Users\\quyva\\OneDrive\\Desktop\\embeddinggemma-2",
+    "dimensions": 768,
+    "queries": 24,
+    "elapsed_seconds": 272.55969659998664,
+    "document_id_alias": {
+      "stored_id": "data",
+      "gold_source_id": "luat-dat-dai-2024"
+    }
+  },
+  "groups": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "queries": 18,
+      "hit_at_1": {
+        "hits": 0,
+        "total": 18,
+        "rate": 0.0
+      },
+      "evidence_hit_at_3": {
+        "hits": 0,
+        "total": 18,
+        "rate": 0.0
+      }
+    },
+    {
+      "strategy": "A",
+      "split": "test",
+      "queries": 6,
+      "hit_at_1": {
+        "hits": 0,
+        "total": 6,
+        "rate": 0.0
+      },
+      "evidence_hit_at_3": {
+        "hits": 0,
+        "total": 6,
+        "rate": 0.0
+      }
+    }
+  ]
+}

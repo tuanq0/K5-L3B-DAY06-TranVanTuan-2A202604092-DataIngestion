@@ -24,9 +24,9 @@ class Embedder(Protocol):
 
 
 class MyEmbedder:
-    """Encode text locally with a multilingual SentenceTransformer model."""
+    """Encode text locally with a SentenceTransformer model."""
 
-    DEFAULT_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    DEFAULT_MODEL = r"C:\Users\quyva\OneDrive\Desktop\embeddinggemma-2"
     _BATCH_SIZE = 32
 
     def __init__(
@@ -58,18 +58,24 @@ class MyEmbedder:
         self.model_name = selected_model
         self.dimensions = model_dimensions
 
-    def _encode(self, texts: list[str]) -> list[list[float]]:
+    def _encode(
+        self, texts: list[str], prompt_name: str | None = None
+    ) -> list[list[float]]:
         if not texts:
             return []
         if any(not isinstance(text, str) or not text.strip() for text in texts):
             raise ValueError("texts must not contain empty or non-string values")
 
+        encode_options = {}
+        if prompt_name and prompt_name in self._model.prompts:
+            encode_options["prompt_name"] = prompt_name
         encoded = self._model.encode(
             texts,
             batch_size=self._BATCH_SIZE,
             convert_to_numpy=True,
             normalize_embeddings=False,
             show_progress_bar=False,
+            **encode_options,
         )
         if len(encoded) != len(texts):
             raise RuntimeError(
@@ -85,14 +91,14 @@ class MyEmbedder:
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
         """Encode document chunks locally."""
-        return self._encode(texts)
+        return self._encode(texts, prompt_name="Document")
 
     def embed_query(self, question: str) -> list[float]:
         """Encode a query with the same model used for document chunks."""
         if not question.strip():
             raise ValueError("question must not be empty or whitespace-only")
-        return self._encode([question])[0]
+        return self._encode([question], prompt_name="SearchQuery")[0]
 
     def embed_queries(self, questions: list[str]) -> list[list[float]]:
         """Encode a batch of queries locally."""
-        return self._encode(questions)
+        return self._encode(questions, prompt_name="SearchQuery")

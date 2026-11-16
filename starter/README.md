@@ -52,7 +52,7 @@ docker compose -p day6_student_starter stop
 
 ## 2. Chọn embedding model
 
-Starter hiện dùng model local `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (384 chiều) qua `sentence-transformers`. Model được tải về lần đầu; sau đó embedding chạy trên CPU và không gửi nội dung tới API embedding. Có thể đổi model bằng `SENTENCE_TRANSFORMER_MODEL` trong `.env`. Dùng cùng model và số chiều cho toàn bộ chiến lược.
+Starter mặc định dùng model local `C:\Users\quyva\OneDrive\Desktop\embeddinggemma-2` (768 chiều) qua `sentence-transformers`. Có thể đổi model bằng `SENTENCE_TRANSFORMER_MODEL` trong `.env`. Với truy xuất, query dùng prompt `SearchQuery` còn các chunk dùng prompt `Document`; dùng cùng model và số chiều cho toàn bộ chiến lược. Embedding chạy trên CPU và không gửi nội dung tới API embedding.
 
 ## 3. Hoàn thiện pipeline
 
@@ -61,5 +61,7 @@ Starter hiện dùng model local `sentence-transformers/paraphrase-multilingual-
 3. Pipeline chạy năm cấu hình: A fixed-size, B theo đoạn, C như B nhưng có filter, D theo câu và E theo heading. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
 4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
 5. Sau khi hoàn thiện các module, chạy `python -m src.run` từ thư mục `starter/`. Có thể truyền `--pdf`, `--questions`, `--document-id` và `--output-dir`; kết quả top-3 và tổng hợp được ghi vào `results/traces.json` và `results/summary.json`.
+6. Nếu đã có vector Strategy A trong database và chỉ muốn đánh giá lại chiến lược đó, chạy `python -m src.evaluate_strategy_a`. Lệnh này chỉ tạo embedding cho câu hỏi, tìm top-3 trong các vector A đã lưu, rồi ghi `results/strategy_a_traces.json` và `results/strategy_a_summary.json`. Nếu `document_id` đã lưu khác `gold_source_id` nhưng bạn xác nhận đó là cùng tài liệu, có thể truyền alias, ví dụ `python -m src.evaluate_strategy_a --document-id-alias data=luat-dat-dai-2024`; alias chỉ áp dụng khi chấm, không sửa database.
+7. Để xuất chunk từ database thành JSON, chạy `python -m src.export_chunks`. Mặc định xuất chiến lược A, 768 chiều, ra `results/chunks.json`; mỗi phần tử có `id`, `text`, `source_id`, `source`, `page` và `metadata`, không chứa embedding. Có thể chọn bằng `--strategy`, `--dimensions` và `--output`.
 
 Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.

@@ -1,0 +1,1648 @@
+{
+  "run": {
+    "benchmark": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\questions.json",
+    "strategy": "A",
+    "model": "C:\\Users\\quyva\\OneDrive\\Desktop\\embeddinggemma-2",
+    "dimensions": 768,
+    "queries": 24,
+    "elapsed_seconds": 272.55969659998664,
+    "document_id_alias": {
+      "stored_id": "data",
+      "gold_source_id": "luat-dat-dai-2024"
+    }
+  },
+  "traces": [
+    {
+      "question_id": "D01",
+      "question": "Theo mục đích sử dụng, đất đai được chia thành những nhóm nào?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:11:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 11,
+          "text": "ốt;\nĐất có mặt nước chuyên dùng;\nĐất phi nông nghiệp khác.\nNhóm đất chưa sử dụng là đất chưa xác định mục đích sử dụng và chưa giao,\nchưa cho thuê.\nChính phủ quy định chi tiết các loại đất tại Điều này.\nĐiều 10. Xác định loại đất\nViệc xác định loại đất dựa trên một trong các căn cứ sau đây:\nGiấy chứng nhận quyền sử dụng đất; Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở; Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất; Giấy chứng nhận quyền sử d",
+          "score": 0.8191174742348841,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 11
+          }
+        },
+        {
+          "chunk_id": "data:11:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 11,
+          "text": "nhiên; đất công trình xử lý chất thải; đất công trình năng lượng, chiếu sáng công cộng; đất công trình hạ tầng bưu chính, viễn thông, công nghệ thông tin; đất chợ dân sinh, chợ đầu mối; đất khu vui chơi, giải trí công cộng, sinh hoạt cộng đồng;\nĐất sử dụng cho hoạt động tôn giáo (sau đây gọi là đất tôn giáo); đất sử dụng cho hoạt động tín ngưỡng (sau đây gọi là đất tín ngưỡng);\nĐất nghĩa trang, nhà tang lễ, cơ sở hỏa táng; đất cơ sở lưu giữ tro cốt;\nĐất có mặt nước chuyên dùng;\nĐất phi nông nghi",
+          "score": 0.807519765130338,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 11
+          }
+        },
+        {
+          "chunk_id": "data:9:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 9,
+          "text": "tích đất trống, đồi núi trọc, đất bãi bồi ven sông, ven biển, đất có mặt nước hoang hóa vào sử dụng theo quy định của Luật này.\nTập trung đất đai để sản xuất nông nghiệp, lâm nghiệp quy mô lớn.\nPhát triển kết cấu hạ tầng để làm tăng giá trị của đất, phát triển công trình ngầm.",
+          "score": 0.8047799322421769,
+          "metadata": {
+            "end_char": 1628,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 9
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D02",
+      "question": "Đất chợ dân sinh được xếp vào loại đất nào?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:11:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 11,
+          "text": "nhiên; đất công trình xử lý chất thải; đất công trình năng lượng, chiếu sáng công cộng; đất công trình hạ tầng bưu chính, viễn thông, công nghệ thông tin; đất chợ dân sinh, chợ đầu mối; đất khu vui chơi, giải trí công cộng, sinh hoạt cộng đồng;\nĐất sử dụng cho hoạt động tôn giáo (sau đây gọi là đất tôn giáo); đất sử dụng cho hoạt động tín ngưỡng (sau đây gọi là đất tín ngưỡng);\nĐất nghĩa trang, nhà tang lễ, cơ sở hỏa táng; đất cơ sở lưu giữ tro cốt;\nĐất có mặt nước chuyên dùng;\nĐất phi nông nghi",
+          "score": 0.7883086496033658,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 11
+          }
+        },
+        {
+          "chunk_id": "data:11:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 11,
+          "text": "ốt;\nĐất có mặt nước chuyên dùng;\nĐất phi nông nghiệp khác.\nNhóm đất chưa sử dụng là đất chưa xác định mục đích sử dụng và chưa giao,\nchưa cho thuê.\nChính phủ quy định chi tiết các loại đất tại Điều này.\nĐiều 10. Xác định loại đất\nViệc xác định loại đất dựa trên một trong các căn cứ sau đây:\nGiấy chứng nhận quyền sử dụng đất; Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở; Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất; Giấy chứng nhận quyền sử d",
+          "score": 0.7619126202113088,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 11
+          }
+        },
+        {
+          "chunk_id": "data:10:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 10,
+          "text": "phòng hộ, đất rừng sản xuất;\nĐất nuôi trồng thủy sản;\nđ) Đất chăn nuôi tập trung;\nĐất làm muối;\nĐất nông nghiệp khác.\nNhóm đất phi nông nghiệp bao gồm các loại đất sau đây:\nĐất ở, gồm đất ở tại nông thôn, đất ở tại đô thị;\nĐất xây dựng trụ sở cơ quan;\nĐất sử dụng vào mục đích quốc phòng, an ninh (sau đây gọi là đất quốc phòng, an ninh);\nĐất xây dựng công trình sự nghiệp, gồm: đất xây dựng cơ sở văn hóa, xã hội, y tế, giáo dục và đào tạo, thể dục, thể thao, khoa học và công nghệ, môi trường, khí",
+          "score": 0.7424013967315467,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 10
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D03",
+      "question": "Việc xác định loại đất dựa trên những căn cứ nào?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:11:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 11,
+          "text": "ốt;\nĐất có mặt nước chuyên dùng;\nĐất phi nông nghiệp khác.\nNhóm đất chưa sử dụng là đất chưa xác định mục đích sử dụng và chưa giao,\nchưa cho thuê.\nChính phủ quy định chi tiết các loại đất tại Điều này.\nĐiều 10. Xác định loại đất\nViệc xác định loại đất dựa trên một trong các căn cứ sau đây:\nGiấy chứng nhận quyền sử dụng đất; Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở; Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất; Giấy chứng nhận quyền sử d",
+          "score": 0.8051867390381057,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 11
+          }
+        },
+        {
+          "chunk_id": "data:4:4",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 4,
+          "text": "là việc Nhà nước tổ chức điều tra, tổng hợp, đánh giá trên hồ sơ địa chính và trên thực địa về hiện trạng sử dụng đất tại thời điểm kiểm kê và biến động đất đai giữa 02 lần kiểm kê.",
+          "score": 0.7377623509527754,
+          "metadata": {
+            "end_char": 1981,
+            "has_text": true,
+            "start_char": 1800,
+            "chunk_index": 4,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 4
+          }
+        },
+        {
+          "chunk_id": "data:47:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 47,
+          "text": "h giá chất lượng đất, tiềm năng đất đai bao gồm:\nKhoanh vùng, xác định vị trí, diện tích và phân mức chất lượng đất đối với các loại đất nông nghiệp, đất chưa sử dụng theo các đặc điểm thổ nhưỡng, địa hình, tính chất vật lý, tính chất hóa học, tính chất sinh học và điều kiện khác;\nKhoanh vùng, xác định vị trí, diện tích và phân mức tiềm năng đất đai đối với các loại đất nông nghiệp, đất phi nông nghiệp, đất chưa sử dụng trên cơ sở phân mức chất lượng đất và hiệu quả sử dụng đất theo các mục tiêu",
+          "score": 0.736474601421584,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 47
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D04",
+      "question": "Nếu loại đất ghi trên giấy tờ đã cấp khác với hiện trạng sử dụng đất thì xác định loại đất theo quy định của ai?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:11:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 11,
+          "text": "ốt;\nĐất có mặt nước chuyên dùng;\nĐất phi nông nghiệp khác.\nNhóm đất chưa sử dụng là đất chưa xác định mục đích sử dụng và chưa giao,\nchưa cho thuê.\nChính phủ quy định chi tiết các loại đất tại Điều này.\nĐiều 10. Xác định loại đất\nViệc xác định loại đất dựa trên một trong các căn cứ sau đây:\nGiấy chứng nhận quyền sử dụng đất; Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở; Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất; Giấy chứng nhận quyền sử d",
+          "score": 0.837848217336168,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 11
+          }
+        },
+        {
+          "chunk_id": "data:11:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 11,
+          "text": "ông có giấy tờ quy định tại khoản 1 Điều này và trường hợp loại đất xác định trên giấy tờ đã cấp khác với phân loại đất theo quy định của Luật này hoặc khác với hiện trạng sử dụng đất thì việc xác định loại đất thực hiện theo quy định của Chính phủ.\nĐiều 11. Hành vi bị nghiêm cấm trong lĩnh vực đất đai\nLấn đất, chiếm đất, hủy hoại đất.\nVi phạm quy định của pháp luật về quản lý nhà nước về đất đai.",
+          "score": 0.8124553988652843,
+          "metadata": {
+            "end_char": 1750,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 11
+          }
+        },
+        {
+          "chunk_id": "data:3:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 3,
+          "text": "Đăng ký đất đai, tài sản gắn liền với đất là việc người sử dụng đất, người sở hữu tài sản gắn liền với đất, người được giao quản lý đất kê khai quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất với cơ quan nhà nước có thẩm quyền để được ghi nhận theo quy định của Luật này.\nĐất đang có tranh chấp là thửa đất có tranh chấp đất đai mà đang trong quá trình được cơ quan có thẩm quyền giải quyết.\nĐiều chỉnh thời hạn sử dụng đất là việc cơ quan nhà nước có thẩm quyền cho phép thay đổi thời hạn s",
+          "score": 0.7927051016015179,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 3
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D05",
+      "question": "Ai phải chịu trách nhiệm trước Nhà nước về việc sử dụng đất nông nghiệp vào mục đích công ích của xã?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:8:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 8,
+          "text": "ng đất theo quy định của Luật này và quy định khác của pháp luật có liên quan; không xâm phạm quyền, lợi ích hợp pháp của người sử dụng đất liền kề và xung quanh.\nĐiều 6. Người chịu trách nhiệm trước Nhà nước đối với việc sử dụng đất\nNgười đại diện theo pháp luật của tổ chức trong nước, tổ chức kinh tế có vốn đầu tư nước ngoài; người đứng đầu của tổ chức nước ngoài có chức năng ngoại giao đối với việc sử dụng đất của tổ chức mình.\nChủ tịch Ủy ban nhân dân cấp xã đối với việc sử dụng đất nông ngh",
+          "score": 0.7924635463529366,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 8
+          }
+        },
+        {
+          "chunk_id": "data:8:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 8,
+          "text": "nhân dân cấp xã đối với việc sử dụng đất nông nghiệp vào mục đích công ích; đất phi nông nghiệp đã giao cho Ủy ban nhân dân cấp xã để sử dụng vào mục đích xây dựng trụ sở Ủy ban nhân dân, các công trình công cộng phục vụ hoạt động văn hóa, giáo dục, y tế, thể dục, thể thao, vui chơi, giải trí, chợ, nghĩa trang và công trình công cộng khác của xã, phường, thị trấn; đất tôn giáo, đất tín ngưỡng chưa giao quản lý, sử dụng.\nNgười đại diện cho cộng đồng dân cư là trưởng thôn, làng, ấp, bản, bon, buô",
+          "score": 0.7796397774616152,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 8
+          }
+        },
+        {
+          "chunk_id": "data:9:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 9,
+          "text": "thu hồi theo quyết định của cơ quan nhà nước có thẩm quyền;\nTổ chức kinh tế được giao quản lý diện tích đất để thực hiện dự án đầu tư theo quy định của pháp luật.\nChủ tịch Ủy ban nhân dân cấp xã, Chủ tịch Ủy ban nhân dân cấp huyện nơi không thành lập đơn vị hành chính cấp xã chịu trách nhiệm đối với việc quản lý đất sử dụng vào mục đích công cộng được giao quản lý, đất chưa giao, đất chưa cho thuê tại địa phương.\nChủ tịch Ủy ban nhân dân cấp tỉnh chịu trách nhiệm đối với việc quản lý đất chưa s",
+          "score": 0.7734859286589315,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 9
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D06",
+      "question": "Trường hợp hộ gia đình, cá nhân vi phạm pháp luật đất đai bị thu hồi đất thì cơ quan nào quyết định thu hồi?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:90:4",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 90,
+          "text": "a pháp luật và thông báo cho người có tài sản nhận lại tài sản;\nBan cưỡng chế thu hồi đất mời đại diện Ủy ban Mặt trận tổ quốc Việt Nam cấp huyện tham gia giám sát việc cưỡng chế thu hồi đất.\nTrách nhiệm của cơ quan, tổ chức, cá nhân trong việc thực hiện quyết định cưỡng chế thực hiện quyết định thu hồi đất được quy định như sau:\nỦy ban nhân dân cấp huyện chịu trách nhiệm tổ chức thực hiện việc cưỡng chế, giải quyết khiếu nại liên quan đến việc cưỡng chế theo quy định của pháp luật về khiếu nại;",
+          "score": 0.8045204084760945,
+          "metadata": {
+            "end_char": 2300,
+            "has_text": true,
+            "start_char": 1800,
+            "chunk_index": 4,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 90
+          }
+        },
+        {
+          "chunk_id": "data:81:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 81,
+          "text": "ch bồi thường, hỗ trợ, tái định cư.\nTrường hợp người sử dụng đất, chủ sở hữu tài sản gắn liền với đất, người có quyền lợi và nghĩa vụ liên quan trong khu vực thu hồi đất đồng ý để cơ quan nhà nước có thẩm quyền thu hồi đất trước thời hạn quy định tại khoản 1 Điều này thì Ủy ban nhân dân cấp có thẩm quyền quyết định thu hồi đất mà không phải chờ đến hết thời hạn quy định tại khoản 1 Điều này.\nNgười có đất thu hồi, chủ sở hữu tài sản gắn liền với đất có trách nhiệm phối hợp với đơn vị, tổ chức thự",
+          "score": 0.7975587831420471,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 81
+          }
+        },
+        {
+          "chunk_id": "data:79:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 79,
+          "text": "an nhân dân cấp huyện quyết định thu hồi đất trong các trường hợp sau đây:\nThu hồi đất thuộc trường hợp quy định tại Điều 78 và Điều 79 của Luật này không phân biệt người sử dụng đất, tổ chức, cá nhân đang quản lý, chiếm hữu đất;\nThu hồi đất đối với hộ gia đình, cá nhân, cộng đồng dân cư thuộc trường hợp quy định tại Điều 81 và Điều 82 của Luật này.\nTrường hợp quyền sử dụng đất và tài sản gắn liền với đất là tài sản công thuộc các trường hợp thu hồi đất theo quy định của Luật này thì không phải",
+          "score": 0.7908895751944849,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 79
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D07",
+      "question": "Bảng giá đất đã công bố có thuộc thông tin đất đai mà công dân được tiếp cận không?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:16:4",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 16,
+          "text": "ống thông tin quốc gia về đất đai theo quy định của pháp luật; ưu tiên lựa chọn hình thức phù hợp với phong tục, tập quán và văn hóa truyền thống của từng dân tộc, từng vùng.\nCông bố kịp thời, công khai thông tin thuộc Hệ thống thông tin quốc gia về đất đai cho người sử dụng đất và tổ chức, cá nhân khác, trừ những thông tin thuộc bí mật nhà nước theo quy định của pháp luật.",
+          "score": 0.777648435381978,
+          "metadata": {
+            "end_char": 2176,
+            "has_text": true,
+            "start_char": 1800,
+            "chunk_index": 4,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 16
+          }
+        },
+        {
+          "chunk_id": "data:20:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 20,
+          "text": "ên quan đến sử dụng đất đã được cơ quan nhà nước có thẩm quyền quyết định, phê duyệt;\nKết quả thống kê, kiểm kê đất đai;\nGiao đất, cho thuê đất;\nBảng giá đất đã được công bố;\nđ) Phương án bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất đã được cơ quan có thẩm quyền phê duyệt;\nKết quả thanh tra, kiểm tra, giải quyết tranh chấp đất đai; kết quả giải quyết khiếu nại, tố cáo về đất đai, kết quả xử lý vi phạm pháp luật về đất đai;\nThủ tục hành chính về đất đai;\nVăn bản quy phạm pháp luật về",
+          "score": 0.7718172939517512,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 20
+          }
+        },
+        {
+          "chunk_id": "data:50:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 50,
+          "text": "ch sử dụng đất các cấp. Bộ Tài nguyên và Môi trường, cơ quan có chức năng quản lý đất đai cấp tỉnh có trách nhiệm công bố công khai kết quả điều tra, đánh giá đất đai trong thời hạn 30 ngày kể từ ngày được cơ quan có thẩm quyền phê duyệt.\nMục 3\nTHỐNG KÊ, KIỂM KÊ ĐẤT ĐAI\nĐiều 56. Nguyên tắc thống kê, kiểm kê đất đai\nTrung thực, khách quan, chính xác, kịp thời, phản ánh đầy đủ hiện trạng và cơ cấu sử dụng đất đai.\nCông khai, minh bạch, độc lập về chuyên môn, nghiệp vụ.\nThống nhất về nghiệp vụ, phư",
+          "score": 0.7457048142947182,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 50
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D08",
+      "question": "Công dân có những nghĩa vụ nào đối với đất đai?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:19:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 19,
+          "text": "Luật Cán bộ, công chức. Công chức làm công tác địa chính có trách nhiệm giúp Ủy ban nhân dân cấp xã trong việc quản lý đất đai tại địa phương.\nMục 3 QUYỀN VÀ NGHĨA VỤ CỦA CÔNG DÂN ĐỐI VỚI ĐẤT ĐAI\nĐiều 23. Quyền của công dân đối với đất đai\nTham gia xây dựng, góp ý, giám sát trong việc hoàn thiện và tổ chức thực hiện chính sách, pháp luật về đất đai.",
+          "score": 0.8422229206043962,
+          "metadata": {
+            "end_char": 1702,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 19
+          }
+        },
+        {
+          "chunk_id": "data:21:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 21,
+          "text": "Điều 25. Nghĩa vụ của công dân đối với đất đai\nChấp hành đúng các quy định của pháp luật về đất đai.\nGiữ gìn, bảo vệ và phát triển tài nguyên đất.\nTôn trọng quyền sử dụng đất của người sử dụng đất khác.\nChương III QUYỀN VÀ NGHĨA VỤ CỦA NGƯỜI SỬ DỤNG ĐẤT\nMục 1\nQUY ĐỊNH CHUNG\nĐiều 26. Quyền chung của người sử dụng đất\nĐược cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất khi có đủ điều kiện theo quy định của pháp luật về đất đai.\nHưởng thành quả lao động, kết quả đầu tư",
+          "score": 0.8071440293976854,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 21
+          }
+        },
+        {
+          "chunk_id": "data:1:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 1,
+          "text": "hĩa vụ của công dân, người sử dụng đất đối với đất đai thuộc lãnh thổ của nước Cộng hòa xã hội chủ nghĩa Việt Nam.\nĐiều 2. Đối tượng áp dụng\nCơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu toàn dân về đất đai, thực hiện nhiệm vụ thống nhất quản lý nhà nước về đất đai.\nNgười sử dụng đất.\nCác đối tượng khác có liên quan đến việc quản lý, sử dụng đất đai.\nĐiều 3. Giải thích từ ngữ\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\nBản đồ địa chính là bản đồ thể hiện các",
+          "score": 0.7931572144630734,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 1
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D09",
+      "question": "Hợp đồng cho thuê quyền sử dụng đất có bắt buộc phải công chứng hoặc chứng thực không?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:22:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 22,
+          "text": "trường hợp quy định tại điểm b khoản này;\nHợp đồng cho thuê, cho thuê lại quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất, hợp đồng chuyển đổi quyền sử dụng đất nông nghiệp; hợp đồng chuyển nhượng, góp vốn bằng quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất, tài sản gắn liền với đất mà một bên hoặc các bên tham gia giao dịch là tổ chức hoạt động kinh doanh bất động sản được công chứng hoặc chứng thực theo yêu cầu của các bên;\nVăn bản về thừa kế quyền sử dụng đấ",
+          "score": 0.7755635839404171,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 22
+          }
+        },
+        {
+          "chunk_id": "data:22:4",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 22,
+          "text": "u của các bên;\nVăn bản về thừa kế quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất được công chứng hoặc chứng thực theo quy định của pháp luật về dân sự;\nViệc công chứng, chứng thực thực hiện theo quy định của pháp luật về công chứng, chứng thực.",
+          "score": 0.7580608397056174,
+          "metadata": {
+            "end_char": 2062,
+            "has_text": true,
+            "start_char": 1800,
+            "chunk_index": 4,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 22
+          }
+        },
+        {
+          "chunk_id": "data:3:4",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 3,
+          "text": "ắn liền với đất theo quy định của pháp luật. Giấy chứng nhận về quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định của các luật có",
+          "score": 0.7554828604233347,
+          "metadata": {
+            "end_char": 1964,
+            "has_text": true,
+            "start_char": 1800,
+            "chunk_index": 4,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 3
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D10",
+      "question": "Cá nhân chuyển đổi quyền sử dụng đất nông nghiệp thì phải thực hiện trong phạm vi nào và có phải nộp thuế, lệ phí không?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:42:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 42,
+          "text": "Trường hợp người sử dụng đất được chậm thực hiện nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính thì phải thực hiện xong nghĩa vụ tài chính trước khi thực hiện các quyền chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, tặng cho quyền sử dụng đất, thế chấp, góp vốn bằng quyền sử dụng đất.\nTổ chức kinh tế được nhận chuyển nhượng quyền sử dụng đất nông nghiệp phải có phương án sử dụng đất nông nghiệp được Ủy ban nhân dân cấp huyện chấp thuận. Phương án sử dụng đất nông nghiệp phải có các n",
+          "score": 0.8108276133760269,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 42
+          }
+        },
+        {
+          "chunk_id": "data:44:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 44,
+          "text": "kế, nhận tặng cho quyền sử dụng đất hợp pháp từ người khác thì chỉ được chuyển đổi quyền sử dụng đất nông nghiệp trong cùng đơn vị hành chính cấp tỉnh cho cá nhân khác và không phải nộp thuế thu nhập từ việc chuyển đổi quyền sử dụng đất và lệ phí trước bạ.\nĐiều 48. Trường hợp thực hiện quyền sử dụng đất có điều kiện\nCá nhân là người dân tộc thiểu số được Nhà nước giao đất, cho thuê đất theo quy định tại khoản 3 Điều 16 của Luật này được để thừa kế, tặng cho, chuyển nhượng quyền sử dụng đất cho n",
+          "score": 0.8080420894994441,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 44
+          }
+        },
+        {
+          "chunk_id": "data:30:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 30,
+          "text": "Tổ chức kinh tế nhận chuyển nhượng quyền sử dụng đất nông nghiệp theo quy định của pháp luật thì có các quyền và nghĩa vụ sau đây:\nTrường hợp nhận chuyển nhượng và không chuyển mục đích sử dụng đất thì có quyền và nghĩa vụ quy định tại khoản 1 và khoản 3 Điều 33 của Luật này;\nTrường hợp nhận chuyển nhượng và chuyển mục đích sử dụng đất mà thuộc trường hợp được Nhà nước giao đất có thu tiền sử dụng đất hoặc cho thuê đất thu tiền thuê đất một lần cho cả thời gian thuê thì có quyền và nghĩa vụ quy",
+          "score": 0.7981824204987239,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 30
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D11",
+      "question": "Cá nhân là người dân tộc thiểu số được giao đất theo chính sách hỗ trợ có được chuyển nhượng quyền sử dụng đất không?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:15:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 15,
+          "text": "xuất, kinh doanh và được miễn, giảm tiền thuê đất;\nđ) Diện tích giao đất, cho phép chuyển mục đích sử dụng đất quy định tại điểm a và điểm b khoản này được tính cho tổng diện tích đất được Nhà nước giao, cho phép chuyển mục đích sử dụng đất trong quá trình thực hiện các chính sách về đất đai đối với đồng bào dân tộc thiểu số.\nCó chính sách hỗ trợ đất đai để bảo đảm ổn định cuộc sống cho cá nhân là người dân tộc thiểu số đã được Nhà nước giao đất, cho thuê đất quy định tại khoản 2 Điều này nhưng",
+          "score": 0.8481122379290934,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 15
+          }
+        },
+        {
+          "chunk_id": "data:44:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 44,
+          "text": "kế, nhận tặng cho quyền sử dụng đất hợp pháp từ người khác thì chỉ được chuyển đổi quyền sử dụng đất nông nghiệp trong cùng đơn vị hành chính cấp tỉnh cho cá nhân khác và không phải nộp thuế thu nhập từ việc chuyển đổi quyền sử dụng đất và lệ phí trước bạ.\nĐiều 48. Trường hợp thực hiện quyền sử dụng đất có điều kiện\nCá nhân là người dân tộc thiểu số được Nhà nước giao đất, cho thuê đất theo quy định tại khoản 3 Điều 16 của Luật này được để thừa kế, tặng cho, chuyển nhượng quyền sử dụng đất cho n",
+          "score": 0.8336265954428116,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 44
+          }
+        },
+        {
+          "chunk_id": "data:44:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 44,
+          "text": "i khác sinh sống hoặc không còn nhu cầu sử dụng mà không tặng cho, chuyển nhượng quyền sử dụng đất cho người thuộc hàng thừa kế là đối tượng quy định tại khoản 2 Điều 16 của Luật này thì Nhà nước thu hồi đất và bồi thường tài sản gắn liền với đất theo quy định của pháp luật cho người có đất thu hồi. Diện tích đất đã thu hồi được dùng để tiếp tục giao đất, cho thuê đất cho cá nhân khác là người dân tộc thiểu số theo chính sách quy định tại Điều 16 của Luật này.\nCá nhân là người dân tộc thiểu số đ",
+          "score": 0.8309226761752599,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 44
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D12",
+      "question": "Tổ chức kinh tế có vốn đầu tư nước ngoài được nhận chuyển nhượng quyền sử dụng đất ở khu vực nào?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:36:4",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 36,
+          "text": "tổ chức kinh tế có vốn đầu tư nước ngoài sử dụng đất để thực hiện các dự án đầu tư tại Việt Nam được Nhà nước",
+          "score": 0.8292290981156527,
+          "metadata": {
+            "end_char": 1909,
+            "has_text": true,
+            "start_char": 1800,
+            "chunk_index": 4,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 36
+          }
+        },
+        {
+          "chunk_id": "data:30:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 30,
+          "text": "Tổ chức kinh tế nhận chuyển nhượng quyền sử dụng đất nông nghiệp theo quy định của pháp luật thì có các quyền và nghĩa vụ sau đây:\nTrường hợp nhận chuyển nhượng và không chuyển mục đích sử dụng đất thì có quyền và nghĩa vụ quy định tại khoản 1 và khoản 3 Điều 33 của Luật này;\nTrường hợp nhận chuyển nhượng và chuyển mục đích sử dụng đất mà thuộc trường hợp được Nhà nước giao đất có thu tiền sử dụng đất hoặc cho thuê đất thu tiền thuê đất một lần cho cả thời gian thuê thì có quyền và nghĩa vụ quy",
+          "score": 0.8012894409446257,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 30
+          }
+        },
+        {
+          "chunk_id": "data:29:4",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 29,
+          "text": "theo quy định của pháp luật về dân sự.\nĐiều 35. Quyền và nghĩa vụ của tổ chức kinh tế nhận chuyển nhượng quyền sử dụng đất, chuyển mục đích sử dụng đất\nTổ chức kinh tế nhận chuyển nhượng quyền sử dụng đất, chuyển mục đích sử dụng đất có quyền và nghĩa vụ chung quy định tại Điều 26 và Điều 31 của Luật này.\nTổ chức kinh tế nhận chuyển nhượng quyền sử dụng đất có nguồn gốc do được Nhà nước giao có thu tiền sử dụng đất hoặc Nhà nước cho thuê đất thu tiền thuê đất một lần cho cả thời gian thuê thì có",
+          "score": 0.7930276202995895,
+          "metadata": {
+            "end_char": 2300,
+            "has_text": true,
+            "start_char": 1800,
+            "chunk_index": 4,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 29
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D13",
+      "question": "Đơn vị sự nghiệp công lập được giao đất không thu tiền sử dụng đất mà muốn dùng đất để kinh doanh, dịch vụ thì được chọn hình thức nào?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:25:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 25,
+          "text": "uê đất thu tiền thuê đất một lần cho cả thời gian thuê được lựa chọn chuyển sang thuê đất thu tiền thuê đất hằng năm. Tiền thuê đất đã nộp được khấu trừ vào tiền thuê đất hằng năm phải nộp theo quy định của Chính phủ.\nĐơn vị sự nghiệp công lập được Nhà nước giao đất không thu tiền sử dụng đất mà có nhu cầu sử dụng một phần hoặc toàn bộ diện tích được giao để sản xuất, kinh doanh, cung cấp dịch vụ thì được lựa chọn chuyển sang hình thức Nhà nước cho thuê đất thu tiền thuê đất hằng năm đối với phầ",
+          "score": 0.8387778479748148,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 25
+          }
+        },
+        {
+          "chunk_id": "data:29:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 29,
+          "text": "đơn vị sự nghiệp công lập đang sử dụng mà có nhu cầu cho thuê, liên doanh, liên kết với tổ chức kinh tế thì phải có đề án sử dụng tài sản công vào mục đích cho thuê, liên doanh, liên kết được cấp có thẩm quyền phê duyệt theo quy định của pháp luật về quản lý, sử dụng tài sản công.\nTổ chức kinh tế, đơn vị sự nghiệp công lập sử dụng đất thuê của tổ chức, cá nhân ngoài khu công nghiệp, cụm công nghiệp, khu công nghệ cao thì có các quyền và nghĩa vụ theo quy định của pháp luật về dân sự.\nĐiều 35. Qu",
+          "score": 0.8262732518394829,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 29
+          }
+        },
+        {
+          "chunk_id": "data:29:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 29,
+          "text": "ịnh sau đây:\nĐối với đất đơn vị sự nghiệp công lập được Nhà nước cho thuê đất thì được phép chủ động khai thác, sử dụng kết hợp đa mục đích theo phương án được cơ quan chủ quản phê duyệt phù hợp với quy định của Luật này và pháp luật có liên quan; trường hợp có đầu tư xây dựng công trình trên đất phải phù hợp với pháp luật về xây dựng. Việc khai thác, sử dụng đất kết hợp đa mục đích phải được hạch toán theo quy định của pháp luật;\nĐối với đất do đơn vị sự nghiệp công lập đang sử dụng mà có nhu c",
+          "score": 0.8176189457235682,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 29
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D14",
+      "question": "Thời gian lấy ý kiến về quy hoạch sử dụng đất cấp tỉnh là bao lâu?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:62:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 62,
+          "text": "dụng đất cấp tỉnh là 45 ngày kể từ ngày công khai thông tin về nội dung lấy ý kiến.\nViệc lấy ý kiến về quy hoạch sử dụng đất cấp huyện, kế hoạch sử dụng đất hằng năm cấp huyện được quy định như sau:\nCơ quan lập quy hoạch sử dụng đất cấp huyện lấy ý kiến các phòng, ban, ngành có liên quan, Ủy ban Mặt trận Tổ quốc Việt Nam cấp huyện, Ủy ban nhân dân cấp xã, cơ quan, tổ chức, cộng đồng dân cư, cá nhân có liên quan về quy hoạch, kế hoạch sử dụng đất. Việc lấy ý kiến được thực hiện thông qua hình th",
+          "score": 0.879881711831952,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 62
+          }
+        },
+        {
+          "chunk_id": "data:62:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 62,
+          "text": ". Nội dung lấy ý kiến gồm báo cáo thuyết minh, hệ thống bản đồ về quy hoạch sử dụng đất;\nViệc tổng hợp, tiếp thu, giải trình ý kiến và hoàn thiện phương án quy hoạch sử dụng đất được thực hiện trước khi trình Hội đồng thẩm định quy hoạch sử dụng đất và phải công bố công khai ý kiến đóng góp và việc tiếp thu, giải trình ý kiến đóng góp trên trang thông tin điện tử của cơ quan lập quy hoạch sử dụng đất cấp tỉnh;\nThời gian lấy ý kiến về quy hoạch sử dụng đất cấp tỉnh là 45 ngày kể từ ngày công khai",
+          "score": 0.8705873824583598,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 62
+          }
+        },
+        {
+          "chunk_id": "data:63:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 63,
+          "text": "h, kế hoạch sử dụng đất được thực hiện trước khi trình thẩm định, phê duyệt quy hoạch, kế hoạch sử dụng đất và phải công bố công khai ý kiến đóng góp và việc tiếp thu, giải trình ý kiến đóng góp trên trang thông tin điện tử của cơ quan lập quy hoạch sử dụng đất cấp huyện, kế hoạch sử dụng đất hằng năm cấp huyện;\nThời gian lấy ý kiến về quy hoạch sử dụng đất cấp huyện là 30 ngày, kế hoạch sử dụng đất hằng năm cấp huyện là 20 ngày kể từ ngày công khai thông tin về nội dung lấy ý kiến.\nCác ý kiến v",
+          "score": 0.8464518664676458,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 63
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D15",
+      "question": "Quy hoạch sử dụng đất cấp huyện được lập cho khoảng thời gian bao nhiêu năm và tầm nhìn bao xa?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:55:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 55,
+          "text": "với thời kỳ, tầm nhìn của quy hoạch tỉnh.\nThời kỳ quy hoạch sử dụng đất cấp huyện là 10 năm. Tầm nhìn quy hoạch sử dụng đất cấp huyện là 20 năm.\nThời kỳ kế hoạch sử dụng đất quốc gia, kế hoạch sử dụng đất cấp tỉnh là 05 năm; kế hoạch sử dụng đất hằng năm cấp huyện được lập hằng năm.\nĐiều 63. Kinh phí cho hoạt động quy hoạch\nKinh phí lập, điều chỉnh, thẩm định, quyết định, phê duyệt, công bố quy hoạch, kế hoạch sử dụng đất do ngân sách nhà nước bảo đảm từ nguồn sự nghiệp kinh tế.\nĐiều 64. Quy ho",
+          "score": 0.8572118945170383,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 55
+          }
+        },
+        {
+          "chunk_id": "data:63:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 63,
+          "text": "h, kế hoạch sử dụng đất được thực hiện trước khi trình thẩm định, phê duyệt quy hoạch, kế hoạch sử dụng đất và phải công bố công khai ý kiến đóng góp và việc tiếp thu, giải trình ý kiến đóng góp trên trang thông tin điện tử của cơ quan lập quy hoạch sử dụng đất cấp huyện, kế hoạch sử dụng đất hằng năm cấp huyện;\nThời gian lấy ý kiến về quy hoạch sử dụng đất cấp huyện là 30 ngày, kế hoạch sử dụng đất hằng năm cấp huyện là 20 ngày kể từ ngày công khai thông tin về nội dung lấy ý kiến.\nCác ý kiến v",
+          "score": 0.822721010556616,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 63
+          }
+        },
+        {
+          "chunk_id": "data:62:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 62,
+          "text": "dụng đất cấp tỉnh là 45 ngày kể từ ngày công khai thông tin về nội dung lấy ý kiến.\nViệc lấy ý kiến về quy hoạch sử dụng đất cấp huyện, kế hoạch sử dụng đất hằng năm cấp huyện được quy định như sau:\nCơ quan lập quy hoạch sử dụng đất cấp huyện lấy ý kiến các phòng, ban, ngành có liên quan, Ủy ban Mặt trận Tổ quốc Việt Nam cấp huyện, Ủy ban nhân dân cấp xã, cơ quan, tổ chức, cộng đồng dân cư, cá nhân có liên quan về quy hoạch, kế hoạch sử dụng đất. Việc lấy ý kiến được thực hiện thông qua hình th",
+          "score": 0.8210744750699586,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 62
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D16",
+      "question": "Kiểm kê đất đai được thực hiện định kỳ như thế nào?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:4:4",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 4,
+          "text": "là việc Nhà nước tổ chức điều tra, tổng hợp, đánh giá trên hồ sơ địa chính và trên thực địa về hiện trạng sử dụng đất tại thời điểm kiểm kê và biến động đất đai giữa 02 lần kiểm kê.",
+          "score": 0.7800242572282302,
+          "metadata": {
+            "end_char": 1981,
+            "has_text": true,
+            "start_char": 1800,
+            "chunk_index": 4,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 4
+          }
+        },
+        {
+          "chunk_id": "data:51:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 51,
+          "text": "Thời gian thực hiện thống kê, kiểm kê đất đai như sau:\nThống kê đất đai được thực hiện hằng năm, tính đến hết ngày 31 tháng 12 của năm thống kê, trừ năm thực hiện kiểm kê đất đai;\nKiểm kê đất đai được thực hiện 05 năm một lần, tính đến hết ngày 31 tháng 12 của năm có chữ số cuối là 4 hoặc 9.\nKiểm kê đất đai chuyên đề được thực hiện theo yêu cầu của quản lý nhà nước về đất đai trong từng thời kỳ do Bộ trưởng Bộ Tài nguyên và Môi trường, Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định.\nĐiều 58. Chỉ t",
+          "score": 0.7794734140912386,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 51
+          }
+        },
+        {
+          "chunk_id": "data:52:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 52,
+          "text": "iều tra, rà soát, cập nhật, chỉnh lý các biến động đất đai trong kỳ kiểm kê;\nXử lý, tổng hợp số liệu và lập các biểu kiểm kê đất đai theo đơn vị hành chính các cấp; xây dựng báo cáo thuyết minh hiện trạng sử dụng đất;\nLập bản đồ hiện trạng sử dụng đất; xây dựng báo cáo thuyết minh bản đồ hiện trạng sử dụng đất;\nđ) Xây dựng báo cáo kết quả kiểm kê đất đai.\nĐiều 59. Trách nhiệm tổ chức thực hiện thống kê, kiểm kê đất đai\nỦy ban nhân dân các cấp tổ chức thực hiện và phê duyệt việc thống kê, kiểm kê",
+          "score": 0.7738386842907027,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 52
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D17",
+      "question": "Đất trồng cây lâu năm không sử dụng liên tục bao lâu (và đã bị xử phạt) thì bị thu hồi?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:77:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 77,
+          "text": "ử dụng trong thời gian 18 tháng liên tục, đất trồng rừng không được sử dụng trong thời gian 24 tháng liên tục và đã bị xử phạt vi phạm hành chính mà không đưa đất vào sử dụng theo thời hạn ghi trong quyết định xử phạt vi phạm hành chính;\nĐất được Nhà nước giao, cho thuê, cho phép chuyển mục đích sử dụng, công nhận quyền sử dụng đất, nhận chuyển nhượng quyền sử dụng đất để thực hiện dự án đầu tư mà không được sử dụng trong thời hạn 12 tháng liên tục kể từ khi nhận bàn giao đất trên thực địa hoặc",
+          "score": 0.830343329960347,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 77
+          }
+        },
+        {
+          "chunk_id": "data:93:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 93,
+          "text": "một lần, trực tiếp cho người có đất trưng dụng, chủ sở hữu tài sản gắn liền với đất trưng dụng trong thời hạn không quá 30 ngày kể từ ngày hoàn trả đất.\nChính phủ quy định chi tiết Điều này.",
+          "score": 0.7814629167308875,
+          "metadata": {
+            "end_char": 1540,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 93
+          }
+        },
+        {
+          "chunk_id": "data:77:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 77,
+          "text": "ẫn chưa đưa đất vào sử dụng thì Nhà nước thu hồi đất mà không bồi thường về đất, tài sản gắn liền với đất và chi phí đầu tư vào đất còn lại.\nCác trường hợp quy định tại các khoản 6, 7 và 8 Điều này không áp dụng đối với trường hợp bất khả kháng.\nChính phủ quy định chi tiết Điều này.\nĐiều 82. Thu hồi đất do chấm dứt việc sử dụng đất theo pháp luật, tự nguyện trả lại đất, có nguy cơ đe dọa tính mạng con người, không còn khả năng tiếp tục sử dụng\nCác trường hợp thu hồi đất do chấm dứt việc sử dụng",
+          "score": 0.7655903243035566,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 77
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "D18",
+      "question": "Người sử dụng đất không thực hiện nghĩa vụ tài chính vì bất khả kháng thì có bị thu hồi đất theo Điều 81 không?",
+      "split": "dev",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:77:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 77,
+          "text": "ẫn chưa đưa đất vào sử dụng thì Nhà nước thu hồi đất mà không bồi thường về đất, tài sản gắn liền với đất và chi phí đầu tư vào đất còn lại.\nCác trường hợp quy định tại các khoản 6, 7 và 8 Điều này không áp dụng đối với trường hợp bất khả kháng.\nChính phủ quy định chi tiết Điều này.\nĐiều 82. Thu hồi đất do chấm dứt việc sử dụng đất theo pháp luật, tự nguyện trả lại đất, có nguy cơ đe dọa tính mạng con người, không còn khả năng tiếp tục sử dụng\nCác trường hợp thu hồi đất do chấm dứt việc sử dụng",
+          "score": 0.8180069260391761,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 77
+          }
+        },
+        {
+          "chunk_id": "data:76:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 76,
+          "text": "lý, khai thác hoặc giao đất, cho thuê đất cho nhà đầu tư theo quy định của pháp luật.\nĐiều 81. Các trường hợp thu hồi đất do vi phạm pháp luật về đất đai\nSử dụng đất không đúng mục đích đã được Nhà nước giao, cho thuê, công nhận quyền sử dụng đất và đã bị xử phạt vi phạm hành chính về hành vi sử dụng đất không đúng mục đích mà tiếp tục vi phạm.\nNgười sử dụng đất hủy hoại đất và đã bị xử phạt vi phạm hành chính về hành vi hủy hoại đất mà tiếp tục vi phạm.\nĐất được giao, cho thuê không đúng đối tư",
+          "score": 0.8081943343045225,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 76
+          }
+        },
+        {
+          "chunk_id": "data:79:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 79,
+          "text": "quy định chi tiết Điều này.\nĐiều 83. Thẩm quyền thu hồi đất và xử lý trường hợp thu hồi đất, tài sản gắn liền với đất là tài sản công\nỦy ban nhân dân cấp tỉnh quyết định thu hồi đất đối với tổ chức trong nước, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc, người gốc Việt Nam định cư ở nước ngoài, tổ chức nước ngoài có chức năng ngoại giao, tổ chức kinh tế có vốn đầu tư nước ngoài thuộc trường hợp quy định tại Điều 81 và Điều 82 của Luật này.\nỦy ban nhân dân cấp huyện quyết định thu hồi đất trong",
+          "score": 0.7666633337211272,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 79
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "T01",
+      "question": "Quy hoạch, kế hoạch sử dụng đất sau khi được phê duyệt phải được công bố công khai chậm nhất bao nhiêu ngày?",
+      "split": "test",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:68:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 68,
+          "text": "i dân, người sử dụng đất tại địa bàn xã.\nThời điểm, thời hạn phải công bố công khai quy hoạch, kế hoạch sử dụng đất theo quy định sau đây:\nChậm nhất là 15 ngày kể từ ngày được cơ quan nhà nước có thẩm quyền quyết định, phê duyệt thì quy hoạch, kế hoạch sử dụng đất phải được công bố công khai;\nQuy hoạch, kế hoạch sử dụng đất phải được công khai trong suốt kỳ quy hoạch, kế hoạch sử dụng đất.\nTài liệu công bố công khai quy hoạch, kế hoạch sử dụng đất bao gồm:\nVăn bản phê duyệt quy hoạch, kế hoạch s",
+          "score": 0.8600134357993257,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 68
+          }
+        },
+        {
+          "chunk_id": "data:63:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 63,
+          "text": "h, kế hoạch sử dụng đất được thực hiện trước khi trình thẩm định, phê duyệt quy hoạch, kế hoạch sử dụng đất và phải công bố công khai ý kiến đóng góp và việc tiếp thu, giải trình ý kiến đóng góp trên trang thông tin điện tử của cơ quan lập quy hoạch sử dụng đất cấp huyện, kế hoạch sử dụng đất hằng năm cấp huyện;\nThời gian lấy ý kiến về quy hoạch sử dụng đất cấp huyện là 30 ngày, kế hoạch sử dụng đất hằng năm cấp huyện là 20 ngày kể từ ngày công khai thông tin về nội dung lấy ý kiến.\nCác ý kiến v",
+          "score": 0.8283556589178166,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 63
+          }
+        },
+        {
+          "chunk_id": "data:62:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 62,
+          "text": "dụng đất cấp tỉnh là 45 ngày kể từ ngày công khai thông tin về nội dung lấy ý kiến.\nViệc lấy ý kiến về quy hoạch sử dụng đất cấp huyện, kế hoạch sử dụng đất hằng năm cấp huyện được quy định như sau:\nCơ quan lập quy hoạch sử dụng đất cấp huyện lấy ý kiến các phòng, ban, ngành có liên quan, Ủy ban Mặt trận Tổ quốc Việt Nam cấp huyện, Ủy ban nhân dân cấp xã, cơ quan, tổ chức, cộng đồng dân cư, cá nhân có liên quan về quy hoạch, kế hoạch sử dụng đất. Việc lấy ý kiến được thực hiện thông qua hình th",
+          "score": 0.8041813653423837,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 62
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "T02",
+      "question": "Thời hạn trưng dụng đất tối đa là bao lâu và được gia hạn thế nào?",
+      "split": "test",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:92:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 92,
+          "text": "đất là không quá 30 ngày kể từ khi quyết định trưng dụng đất có hiệu lực thi hành. Trường hợp hết thời hạn trưng dụng đất mà mục đích của việc trưng dụng chưa hoàn thành thì được gia hạn nhưng không quá 30 ngày. Quyết định gia hạn trưng dụng đất phải được thể hiện bằng văn bản và gửi cho người có đất trưng dụng, chủ sở hữu tài sản gắn liền với đất trưng dụng trước khi kết thúc thời hạn trưng dụng.\nTrường hợp trong tình trạng chiến tranh, tình trạng khẩn cấp thì thời hạn trưng dụng được tính từ n",
+          "score": 0.851704718950986,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 92
+          }
+        },
+        {
+          "chunk_id": "data:93:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 93,
+          "text": "một lần, trực tiếp cho người có đất trưng dụng, chủ sở hữu tài sản gắn liền với đất trưng dụng trong thời hạn không quá 30 ngày kể từ ngày hoàn trả đất.\nChính phủ quy định chi tiết Điều này.",
+          "score": 0.8125100106879226,
+          "metadata": {
+            "end_char": 1540,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 93
+          }
+        },
+        {
+          "chunk_id": "data:92:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 92,
+          "text": "Giao thông vận tải, Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn, Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Công Thương, Bộ trưởng Bộ Tài nguyên và Môi trường, Bộ trưởng Bộ Tài chính, Chủ tịch Ủy ban nhân dân cấp tỉnh, Chủ tịch Ủy ban nhân dân cấp huyện có thẩm quyền quyết định trưng dụng đất, quyết định gia hạn trưng dụng đất. Người có thẩm quyền quyết định trưng dụng đất, quyết định gia hạn trưng dụng đất không được ủy quyền.\n4. Thời hạn trưng dụng đất là không quá 30 ngày kể từ khi quyết định trưn",
+          "score": 0.8021472268275845,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 92
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "T03",
+      "question": "Ai chịu trách nhiệm quản lý đất chưa sử dụng tại các đảo chưa giao cho cấp huyện, cấp xã quản lý?",
+      "split": "test",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:9:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 9,
+          "text": "h chịu trách nhiệm đối với việc quản lý đất chưa sử dụng tại các đảo chưa giao cho đơn vị hành chính cấp huyện, cấp xã quản lý.\nNgười đại diện cho cộng đồng dân cư là người chịu trách nhiệm đối với đất được giao cho cộng đồng dân cư quản lý.\nĐiều 8. Khuyến khích đầu tư vào sử dụng đất đai\nNâng cao hiệu quả sử dụng đất.\nBảo vệ, cải tạo, làm tăng độ màu mỡ của đất; xử lý đất, đất có mặt nước bị ô nhiễm, phục hồi đất bị thoái hóa.\nLấn biển, đưa diện tích đất trống, đồi núi trọc, đất bãi bồi ven sôn",
+          "score": 0.8509161876448202,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 9
+          }
+        },
+        {
+          "chunk_id": "data:9:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 9,
+          "text": "thu hồi theo quyết định của cơ quan nhà nước có thẩm quyền;\nTổ chức kinh tế được giao quản lý diện tích đất để thực hiện dự án đầu tư theo quy định của pháp luật.\nChủ tịch Ủy ban nhân dân cấp xã, Chủ tịch Ủy ban nhân dân cấp huyện nơi không thành lập đơn vị hành chính cấp xã chịu trách nhiệm đối với việc quản lý đất sử dụng vào mục đích công cộng được giao quản lý, đất chưa giao, đất chưa cho thuê tại địa phương.\nChủ tịch Ủy ban nhân dân cấp tỉnh chịu trách nhiệm đối với việc quản lý đất chưa s",
+          "score": 0.8110229379916852,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 9
+          }
+        },
+        {
+          "chunk_id": "data:45:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 45,
+          "text": "Ủy ban nhân dân cấp xã có trách nhiệm quản lý diện tích đất thu hồi theo quy định tại khoản 1 Điều này.\nChương IV\nĐỊA GIỚI ĐƠN VỊ HÀNH CHÍNH, ĐIỀU TRA CƠ BẢN VỀ ĐẤT ĐAI\nMục 1\nĐỊA GIỚI ĐƠN VỊ HÀNH CHÍNH, BẢN ĐỒ ĐỊA CHÍNH\nĐiều 49. Địa giới đơn vị hành chính\nĐịa giới đơn vị hành chính được lập theo đơn vị hành chính cấp xã, cấp huyện, cấp tỉnh. Hồ sơ địa giới đơn vị hành chính thể hiện thông tin về việc thành lập, nhập, chia, điều chỉnh địa giới đơn vị hành chính và các mốc địa giới, đường địa giới",
+          "score": 0.7910052499951693,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 45
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "T04",
+      "question": "Nếu người thừa kế quyền sử dụng đất là người gốc Việt Nam định cư ở nước ngoài nhưng không thuộc đối tượng được nhận quyền sử dụng đất theo khoản 1 Điều 44 thì được hưởng gì?",
+      "split": "test",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:32:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 32,
+          "text": "di chúc hoặc theo pháp luật.\nTrường hợp người được thừa kế là người gốc Việt Nam định cư ở nước ngoài thuộc đối tượng quy định tại khoản 1 Điều 44 của Luật này thì được nhận thừa kế quyền sử dụng đất; nếu không thuộc đối tượng quy định tại khoản 1 Điều 44 của Luật này thì được hưởng giá trị của phần thừa kế đó;\nTặng cho quyền sử dụng đất cho Nhà nước; tặng cho quyền sử dụng đất cho cộng đồng dân cư để xây dựng các công trình phục vụ lợi ích chung của cộng đồng hoặc mở rộng đường giao thông theo",
+          "score": 0.8671464928074751,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 32
+          }
+        },
+        {
+          "chunk_id": "data:40:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 40,
+          "text": "đối với người gốc Việt Nam định cư ở nước ngoài không thuộc đối tượng được sở hữu nhà ở gắn liền với quyền sử dụng đất ở tại Việt Nam thì phần thừa kế được giải quyết theo quy định tại khoản 3 Điều này.\nNgười nhận thừa kế trong các trường hợp quy định tại điểm c khoản 3 và khoản 4 Điều này được ủy quyền bằng văn bản cho người khác trông nom hoặc tạm sử dụng đất và thực hiện nghĩa vụ theo quy định của pháp luật về đất đai và quy định khác của pháp luật có liên quan.\nĐIỀU KIỆN THỰC HIỆN CÁC QUYỀN",
+          "score": 0.8404452191285104,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 40
+          }
+        },
+        {
+          "chunk_id": "data:38:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 38,
+          "text": "gian thuê lại thì có quyền và nghĩa vụ quy định tại khoản 1 và khoản 3 Điều 33 của Luật này;\nTrường hợp trả tiền thuê đất, thuê lại đất hằng năm thì có quyền và nghĩa vụ quy định tại khoản 1 Điều 34 của Luật này.\nĐiều 44. Quyền và nghĩa vụ về sử dụng đất ở của người gốc Việt Nam định cư ở nước ngoài được sở hữu nhà ở tại Việt Nam; người nước ngoài hoặc người gốc Việt Nam định cư ở nước ngoài không thuộc đối tượng được sở hữu nhà ở gắn liền với quyền sử dụng đất ở tại Việt Nam\nNgười gốc Việt Nam",
+          "score": 0.8231115781911911,
+          "metadata": {
+            "end_char": 1400,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 38
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "T05",
+      "question": "Bản đồ địa chính được đo đạc, lập chi tiết đến từng thửa đất theo đơn vị hành chính cấp nào?",
+      "split": "test",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:46:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 46,
+          "text": "i. Việc đo đạc lập bản đồ địa chính được thực hiện chi tiết đến từng thửa đất theo đơn vị hành chính cấp xã; nơi không thành lập đơn vị hành chính cấp xã thì được lập theo đơn vị hành chính cấp huyện.\nBản đồ địa chính phải được chỉnh lý khi có sự thay đổi về hình dạng, kích thước, diện tích thửa đất và các yếu tố khác có liên quan đến nội dung bản đồ địa chính và đồng thời được cập nhật vào cơ sở dữ liệu quốc gia về đất đai.\nỦy ban nhân dân cấp tỉnh có trách nhiệm tổ chức thực hiện việc đo đạc l",
+          "score": 0.8501033719228966,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 46
+          }
+        },
+        {
+          "chunk_id": "data:1:2",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 1,
+          "text": "như sau:\nBản đồ địa chính là bản đồ thể hiện các thửa đất và các đối tượng địa lý có liên quan, lập theo đơn vị hành chính cấp xã hoặc theo đơn vị hành chính cấp huyện nơi không thành lập đơn vị hành chính cấp xã, được cơ quan nhà nước có thẩm quyền xác nhận.\nBản đồ hiện trạng sử dụng đất là bản đồ thể hiện sự phân bố các loại đất tại một thời điểm xác định, được lập theo từng đơn vị hành chính các cấp, theo từng vùng kinh tế - xã hội.",
+          "score": 0.8228032551306246,
+          "metadata": {
+            "end_char": 1340,
+            "has_text": true,
+            "start_char": 900,
+            "chunk_index": 2,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 1
+          }
+        },
+        {
+          "chunk_id": "data:46:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 46,
+          "text": "Chính phủ có trách nhiệm hướng dẫn việc giải quyết trường hợp chưa thống nhất về địa giới đơn vị hành chính; tổ chức giải quyết việc chưa thống nhất về địa giới đơn vị hành chính quy định tại khoản 4 và khoản 5 Điều này.\nBộ Nội vụ quy định về việc lập, quản lý hồ sơ địa giới đơn vị hành chính.\nĐiều 50. Đo đạc lập bản đồ địa chính\nBản đồ địa chính là cơ sở để phục vụ công tác quản lý nhà nước về đất đai và xây dựng cơ sở dữ liệu quốc gia về đất đai. Việc đo đạc lập bản đồ địa chính được thực hiện",
+          "score": 0.7938278405851398,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 46
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    },
+    {
+      "question_id": "T06",
+      "question": "Thực hiện giao dịch về quyền sử dụng đất mà không đăng ký với cơ quan có thẩm quyền có phải hành vi bị nghiêm cấm không?",
+      "split": "test",
+      "strategy": "A",
+      "hits": [
+        {
+          "chunk_id": "data:12:1",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 12,
+          "text": ", thực hiện giao dịch về quyền sử dụng đất mà không đăng ký với cơ quan có thẩm quyền.\nKhông thực hiện hoặc thực hiện không đầy đủ nghĩa vụ tài chính đối với Nhà nước.\nCản trở, gây khó khăn đối với việc sử dụng đất, việc thực hiện quyền của người sử dụng đất theo quy định của pháp luật.\nPhân biệt đối xử về giới trong quản lý, sử dụng đất đai.\nChương II QUYỀN HẠN VÀ TRÁCH NHIỆM CỦA NHÀ NƯỚC,\nQUYỀN VÀ NGHĨA VỤ CỦA CÔNG DÂN ĐỐI VỚI ĐẤT ĐAI\nMục 1 QUYỀN HẠN VÀ TRÁCH NHIỆM CỦA NHÀ NƯỚC LÀ ĐẠI DIỆN CHỦ",
+          "score": 0.8269888071135666,
+          "metadata": {
+            "end_char": 950,
+            "has_text": true,
+            "start_char": 450,
+            "chunk_index": 1,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 12
+          }
+        },
+        {
+          "chunk_id": "data:41:0",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 41,
+          "text": "Đất không có tranh chấp hoặc tranh chấp đã được giải quyết bởi cơ quan nhà nước có thẩm quyền, bản án, quyết định của Tòa án, quyết định hoặc phán quyết của Trọng tài đã có hiệu lực pháp luật;\nQuyền sử dụng đất không bị kê biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật thi hành án dân sự;\nTrong thời hạn sử dụng đất;\nđ) Quyền sử dụng đất không bị áp dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật.\nTrường hợp chủ đầu tư chuyển nhượng quyền sử dụng đất",
+          "score": 0.7862682818254363,
+          "metadata": {
+            "end_char": 500,
+            "has_text": true,
+            "start_char": 0,
+            "chunk_index": 0,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 41
+          }
+        },
+        {
+          "chunk_id": "data:22:3",
+          "document_id": "data",
+          "source": "data.pdf",
+          "page": 22,
+          "text": "trường hợp quy định tại điểm b khoản này;\nHợp đồng cho thuê, cho thuê lại quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất, hợp đồng chuyển đổi quyền sử dụng đất nông nghiệp; hợp đồng chuyển nhượng, góp vốn bằng quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất, tài sản gắn liền với đất mà một bên hoặc các bên tham gia giao dịch là tổ chức hoạt động kinh doanh bất động sản được công chứng hoặc chứng thực theo yêu cầu của các bên;\nVăn bản về thừa kế quyền sử dụng đấ",
+          "score": 0.7712252029592985,
+          "metadata": {
+            "end_char": 1850,
+            "has_text": true,
+            "start_char": 1350,
+            "chunk_index": 3,
+            "source_path": "C:\\Users\\quyva\\OneDrive\\Desktop\\VIN\\K5-L3B-DAY06-TranVanTuan-2A202604092-DataIngestion\\starter\\data\\data.pdf",
+            "total_pages": 94,
+            "document_id": "data",
+            "source": "data.pdf",
+            "page": 22
+          }
+        }
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "evidence_matches": []
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Core setup, PDF parsing and local sentence-transformer embeddings.
 psycopg[binary]==3.3.8
 docling>=2,<3
-sentence-transformers>=3,<6
+sentence-transformers>=6.1,<7
 pypdf>=5,<7
 python-dotenv>=1,<2
